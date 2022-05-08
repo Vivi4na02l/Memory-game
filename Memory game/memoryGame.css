@@ -1,0 +1,10 @@
+/* this code flips the cards but it seems that the code can't execute different actions to the same events in two diferent "languages" */
+/* which means, if i activate this my javascript code won't work properly */
+/* probably isn't working because I changing the innerHTML (when I saw some tutorials on the internet i realized they had like two images, one on the front and back) */
+
+
+/* a img {
+    transition: transform 0.8s;
+} a img:active {
+    transform: rotateY(180deg);
+} */
