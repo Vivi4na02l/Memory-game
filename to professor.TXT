@@ -1,0 +1,6 @@
+The code I put on CSS flips the cards but it seems that the code can't execute different actions to the same events in two diferent "languages", which means, if I activate the code in the
+CSS my javascript code won't work properly
+
+
+Probably it isn't working because I change the innerHTML of the "div" when there's a click event (so after not being able to figure out a solution by myself, i went to the internet and
+realized that most memory games would have two pictures at the same time instead of changing the innerHTML like me, which is probably why my isn't working to flip)

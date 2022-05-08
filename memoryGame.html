@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+
+    <link rel="stylesheet" href="memoryGame.css">
+
+    
+</head>
+<body style="background-image: url(images/background/swtzl.jpg); background-size: cover; margin: 0px;">
+    <div style="display: flex; align-items: center; flex-direction: column;">
+        <div>
+            <h1>Memory Game</h1>
+        </div>
+
+        <div>
+            Choose number of cards:
+            <input type="number" id="nbrCards" min="4" max="12" placeholder="8">
+        </div><br><br>
+        
+        <div style="display: flex; justify-content: center; flex-direction: column; background-color: #ffffff83; padding: 40px; border-radius: 14px;" id="cardsBoard">
+            <div id="firstLine" style="display: flex; justify-content: center; flex-direction: row;">
+                <!-- first line of cards are going to be introduced here through javascript -->
+            </div>
+            <div id="secondLine" style="display: flex; justify-content: center; flex-direction: row;">
+                <!-- second line of cards are going to be introduced here through javascript -->
+            </div>
+        </div>
+    </div>
+
+    <script src="memoryGame.js"></script>
+</body>
+</html>
